@@ -27,5 +27,10 @@
     "mongoose": "^6.3.4",
     "nodemon": "^2.0.16",
     "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "eslint": "^8.16.0",
+    "webpack": "^5.72.1"
   }
 }
