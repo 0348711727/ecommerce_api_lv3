@@ -1,5 +1,0 @@
-export const db_config = {
-  HOST: "localhost",
-  PORT: 27017,
-  DB: "bezkoder_db"
-};

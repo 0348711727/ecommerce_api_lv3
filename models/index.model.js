@@ -12,7 +12,7 @@ const db = {
           if (err) {
             console.log(err);
           }
-          console.log('Role User add to mongo');
+          console.log('Role Guest add to mongo');
         });
         new Role({ name: 'admin' }).save(err => {
           if (err) {
@@ -29,7 +29,5 @@ db.mongoose = mongoose;
 db.user = User;
 db.role = Role;
 db.ROLES = ['user', 'admin', 'moderator'];
-
-
 
 export default db;
