@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import Role from './role.model.js';
 import User from './user.model.js';
-
+import Post from './post.model.js';
 mongoose.Promise = global.Promise;
 
 const db = {
@@ -28,6 +28,7 @@ const db = {
 db.mongoose = mongoose;
 db.user = User;
 db.role = Role;
+db.post = Post;
 db.ROLES = ['user', 'admin', 'moderator'];
 
 export default db;
